@@ -21,7 +21,7 @@ public class RandomUsersModule {
         return retrofit.create(RandomUsersApi.class);
     }
 
-    @RandomUserApplicationScope
+    @UserApplicationScope
     @Provides
     public Retrofit retrofit(OkHttpClient okHttpClient,
                              GsonConverterFactory gsonConverterFactory, Gson gson){

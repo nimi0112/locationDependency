@@ -11,6 +11,6 @@ import javax.inject.Scope;
  */
 @Scope
 @Retention(RetentionPolicy.CLASS)
-public @interface RandomUserApplicationScope {
+public @interface UserApplicationScope {
 
 }

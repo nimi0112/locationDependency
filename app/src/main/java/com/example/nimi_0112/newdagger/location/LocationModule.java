@@ -17,8 +17,7 @@ import dagger.Provides;
  * Created on 21-11-2018
  */
 @Module(includes = {ContextModule.class,ActivityModule.class})
-
-public abstract class LocationModule {
+public  class LocationModule {
 
     @Provides
     public GoogleApiClient mGoogleApiClient(Context context){

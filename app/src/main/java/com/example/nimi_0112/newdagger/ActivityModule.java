@@ -22,7 +22,7 @@ public class ActivityModule {
     }
 
     @Named("activity_context")
-    @RandomUserApplicationScope
+    @UserApplicationScope
     @Provides
     public Context context(){ return context; }
 }

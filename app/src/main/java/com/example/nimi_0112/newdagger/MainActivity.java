@@ -46,6 +46,7 @@ public class MainActivity extends Activity {
         } else {
             getLastLocation();
         }
+
     }
 
     void getLastLocation() {

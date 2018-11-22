@@ -32,7 +32,7 @@ public class OkHttpClientModule {
     }
 
     @Provides
-    @RandomUserApplicationScope
+    @UserApplicationScope
     public File file(@ApplicationContext Context context){
         File file = new File(context.getCacheDir(), "HttpCache");
         file.mkdirs();

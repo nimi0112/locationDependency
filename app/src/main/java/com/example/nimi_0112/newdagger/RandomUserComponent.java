@@ -8,7 +8,7 @@ import dagger.Component;
  * @author nimi_0112
  * Created on 21-11-2018
  */
-@RandomUserApplicationScope
+@UserApplicationScope
 @Component(modules = {RandomUsersModule.class, PicassoModule.class})
 public interface RandomUserComponent {
 

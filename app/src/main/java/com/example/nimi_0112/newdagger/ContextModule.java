@@ -19,7 +19,7 @@ public class ContextModule {
     }
 
     @ApplicationContext
-    @RandomUserApplicationScope
+    @UserApplicationScope
     @Provides
     public Context context(){ return context.getApplicationContext(); }
 }
